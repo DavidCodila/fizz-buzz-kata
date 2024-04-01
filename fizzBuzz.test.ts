@@ -10,3 +10,8 @@ test("should return 4 for being passed 4", () => {
   const result = fizzBuzz(4);
   expect(result).toEqual("4");
 });
+
+test("should return Buzz for being passed 5", () => {
+  const result = fizzBuzz(5);
+  expect(result).toEqual("Buzz");
+});
