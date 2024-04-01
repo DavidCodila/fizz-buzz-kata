@@ -6,5 +6,5 @@ export function fizzBuzz(number: number): string {
   } else if (number == 15) {
     return "FizzBuzz";
   }
-  return "4";
+  return String(number);
 }

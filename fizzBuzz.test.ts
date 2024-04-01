@@ -20,3 +20,8 @@ test("should return FizzBuzz for being passed 15", () => {
   const result = fizzBuzz(15);
   expect(result).toEqual("FizzBuzz");
 });
+
+test("should return 16 for being passed 16", () => {
+  const result = fizzBuzz(16);
+  expect(result).toEqual("16");
+});
