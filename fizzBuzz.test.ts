@@ -16,6 +16,11 @@ test("should return Buzz for being passed 5", () => {
   expect(result).toEqual("Buzz");
 });
 
+test("should return Fizz for being passed 6", () => {
+  const result = fizzBuzz(6);
+  expect(result).toEqual("Fizz");
+});
+
 test("should return FizzBuzz for being passed 15", () => {
   const result = fizzBuzz(15);
   expect(result).toEqual("FizzBuzz");

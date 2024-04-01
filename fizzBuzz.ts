@@ -1,10 +1,13 @@
 export function fizzBuzz(number: number): string {
-  if (number == 3) {
-    return "Fizz";
-  } else if (number == 5) {
-    return "Buzz";
-  } else if (number == 15) {
-    return "FizzBuzz";
+  var returnString = "";
+  if (number % 3 == 0) {
+    returnString += "Fizz";
   }
-  return String(number);
+  if (number % 5 == 0) {
+    returnString += "Buzz";
+  }
+  if (returnString == "") {
+    return String(number);
+  }
+  return returnString;
 }
